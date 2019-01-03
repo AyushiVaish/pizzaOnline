@@ -1,28 +1,22 @@
+<%-- 
+    Document   : burgerPizza
+    Created on : Jan 3, 2019, 4:18:53 PM
+    Author     : USER
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>PIZZA ONLINE ORDER</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>BURGER PIZZA VARIETY</title>
+  
+                        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <style>
-              .container-fluid{
-      padding:5%;    
-    }
-  
-        </style>
-
-        
-    </head>
-    <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+</head>
+<body>
+         <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -51,77 +45,45 @@ and open the template in the editor.
     </div>
   </div>
 </nav>
-       
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-     
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="image1.jpg" alt="Image">
-        <div class="carousel-caption">
-          <h3>PIzzA</h3>
-          
-        </div>      
-      </div>
-    </div>
-
-       </div>
-         <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica"><b>START ORDERING</b></h1><br>
-         <div class="container text-center" style="background-color:black ;" >  
-           
-  <div class="row">
-      <div class="col-sm-4" >
-        <h1 style="color:green;">VEG PIZZA</H1>
-      <img src="veg.jpg" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:darkgreen">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier and feel good to have</p>
-   <a href="menu.jsp" class="btn btn-primary custom-btn">View All</a>
-      </div>
-       
-    <div class="col-sm-4"> 
-        <h1 style="color:red;">NON-VEG PIZZA</H1>
-      <img src="nonveg.jpg" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:maroon;">Choose your favourite non-veg pizzas from the Domino's Pizza menu. Get fresh non-veg pizza with your choice of crusts & toppings</p>    
-   <a href="non_veg.jsp" class="btn btn-primary custom-btn">View All</a>
-    </div>
-
-        <div class="col-sm-4"> 
-                   <H1 style="color:goldenrod;">PIZZA MANIA </H1>
-      <img src="pizzaMania.png" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:lightcoral"> Indulge into mouth-watering taste of Pizza mania range, perfect answer to all your food cravings</p>    
-    <a href="pizzaMania.jsp" class="btn btn-primary custom-btn">View All</a>
-        </div>
-  </div>
-        </div>
-        
-    <div class="container text-center" style="background-color:black">
+        <img src="image1.jpg" alt="image" style="width:100%;">
+        <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica"><b>BURGER PIZZA</b></h1><br>
+      
+        <div class="container text-center" style="background-color:black">
         <div class="row">
  
     <div class="col-sm-4"> 
-        <H1 style="color:blue;">SIDE AND BEVERAGES</H1>
-      <img src="sideAnd.jpg" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:midnightblue;">Complement your pizza with wide range of sides & beverages available at Domino's Pizza India</p>    
-    <a href="sideOrder.jsp" class="btn btn-primary custom-btn">View All</a>
+        <H1 style="color:blue;">BURGER PIZZA- CLASSIC VEG
+</H1>
+      <img src="burgerClassic.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <p style="color:midnightblue;">
+
+
+
+Bite into delight! Witness the epic combination of pizza and burger with our classic Burger Pizza, that looks good and tastes great!</p>    
+    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    </div>
+                         <div class="col-sm-4">
+        <H1 style="color:violet;">BURGER PIZZA- PREMIUM VEG
+
+</H1>
+      <img src="burgerVeg.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <p style="color:red;">
+
+The good just got better! Treat yourself to the premium taste of the Burger Pizza, that looks good and tastes great with paneer and red paprika.</p>    
+    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-4">
-                 <h1 style="color:olive">BURGER </br>
-         PIZZA</H1>
-      <img src="burgerPizza.png" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:seagreen;">Looks like a burger tastes like a pizza. Fresh veggies with the goodness of wheat, baked to perfection</p>
-<a href="burgerPizza.jsp" class="btn btn-primary custom-btn">View All</a>
+                 <h1 style="color:olive">
+BURGER PIZZA- CLASSIC NON VEG
+       </H1>
+      <img src="burgerNon.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <p style="color:seagreen;">
+For all the meat cravers, try the classic non-veg Burger Pizza loaded with the goodness of burger and the greatness of pizza.
+</p>
+<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
-        <div class="col-sm-4"> 
-            <H1 style="color:darkred;">SPECIALITY CHICKEN</H1>
-      <img src="specialityChicken.png" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:crimson;">Tender, juicy, melt-in-mouth, a whole new range of drool-worthy boneless chicken and chicken wings that are tossed in exotic, international flavours</p>    
-    <a href="chicken.jsp" class="btn btn-primary custom-btn">View All</a>
-        </div>
-  </div>
-    </div>
+        </DIV>
+        </DIV>
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
          <footer class="container-fluid text-center" style="BACKGROUND-COLOR:black;">
              <div class="row">
@@ -165,6 +127,5 @@ and open the template in the editor.
 <a href="http://linkedin.com" target="_blank"><img alt="" src="https://s3.amazonaws.com/flashissue/dJtLdIsbRAix3zQhvygP_linkedin_icon_dark_hover-5be7d72ca83a10c0c76c32d141b0b828.png" style="height:50px; width:50px" /> </a>
 </p>
          </footer>
-                
     </body>
 </html>
