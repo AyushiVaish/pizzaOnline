@@ -37,23 +37,65 @@
             <li><a href="#section1">Inside FooDuDe</a></li>
           <li><a href="#section1">SPECIAL OFFERS</a></li>
           <li><a href="#section2">GIFT CARD</a></li>
-           <li> <a href="#">
+           <li> <a href="tel:714653">
                    <span class="glyphicon glyphicon-earphone"></span> 714653</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="reister.jsp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="logn.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
    
       </ul>
     </div>
   </div>
 </nav>
-        <img src="image1.jpg" alt="image" style="width:100%;">
+           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="pi.jpg" alt="Images" style="width:100%;">
+       
+      </div>
+
+      <div class="item">
+        <img src="pi2.jpg" alt="image" style="width:100%;">
+        
+       
+      </div>
+              <div class="item">
+        <img src="pi3.jpg" alt="image" style="width:100%;">
+        
+       
+      </div>
+    
+      <div class="item">
+        <img src="pi4.jpg" alt="image" style="width:100%;">
+       
+      </div>
+  
+    </div>
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
         <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica"><b>SIDE ORDERS</b></h1><br>
         <div class="container">
        <div class="col-sm-2">
            <h4 >  <a href="pizzaMania.jsp"><b>BREAD</b></a></h4>
        </div>
                   <div class="col-sm-2">
-           <h4 >  <a href="pasta.jsp"><b>PASTA</b></a></h4>
+           <h4><a href="pasta.jsp"><b>PASTA</b></a></h4>
        </div>
                   <div class="col-sm-2">
            <h4 >  <a href="dips.jsp"><b>DIPS</b></a></h4>
@@ -62,7 +104,7 @@
            <h4 >  <a href="deserts.jsp"><b>DESERTS</b></a></h4>
        </div>
                   <div class="col-sm-2">
-           <h4 >  <a href="beverage.jsp"><b>BEVERAGES</b></a></h4>
+           <h4 >  <a href="beverages.jsp"><b>BEVERAGES</b></a></h4>
        </div>
             <div class="col-sm-2">
                 <h4><a href="more.jsp"><b> MORE</b></a></h4>
