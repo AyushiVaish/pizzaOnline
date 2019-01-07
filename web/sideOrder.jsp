@@ -92,7 +92,7 @@
         <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica"><b>SIDE ORDERS</b></h1><br>
         <div class="container">
        <div class="col-sm-2">
-           <h4 >  <a href="pizzaMania.jsp"><b>BREAD</b></a></h4>
+           <h4 >  <a href="sideOrder.jsp"><b>BREAD</b></a></h4>
        </div>
                   <div class="col-sm-2">
            <h4><a href="pasta.jsp"><b>PASTA</b></a></h4>
@@ -121,7 +121,7 @@
       <img src="GARLIC.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:midnightblue;">
 The endearing tang of garlic in breadstics baked to perfection.</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-6">
                  <h1 style="color:olive"> Stuffed Garlic Bread
@@ -131,7 +131,7 @@ The endearing tang of garlic in breadstics baked to perfection.</p>
       <p style="color:seagreen;">
 Freshly Baked Garlic Bread stuffed with mozzarella cheese, sweet corns & tangy and spicy jalapeños
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         </DIV>
         </DIV>

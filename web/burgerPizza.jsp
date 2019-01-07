@@ -102,7 +102,7 @@
 
 
 Bite into delight! Witness the epic combination of pizza and burger with our classic Burger Pizza, that looks good and tastes great!</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
                          <div class="col-sm-4">
         <H1 style="color:violet;">BURGER PIZZA- PREMIUM VEG
@@ -112,7 +112,7 @@ Bite into delight! Witness the epic combination of pizza and burger with our cla
       <p style="color:red;">
 
 The good just got better! Treat yourself to the premium taste of the Burger Pizza, that looks good and tastes great with paneer and red paprika.</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-4">
                  <h1 style="color:olive">
@@ -122,7 +122,7 @@ BURGER PIZZA- CLASSIC NON VEG
       <p style="color:seagreen;">
 For all the meat cravers, try the classic non-veg Burger Pizza loaded with the goodness of burger and the greatness of pizza.
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         </DIV>
         </DIV>

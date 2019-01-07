@@ -122,7 +122,7 @@
       <p style="color:midnightblue;">
 
 A soft creamy cheese dip spiced with jalapeno.</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-6">
                  <h1 style="color:olive"> Cheese Dip
@@ -134,7 +134,7 @@ A soft creamy cheese dip spiced with jalapeno.</p>
 
 A dreamy creamy cheese dip to add that extra tang to your snack.
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         </DIV>
         </DIV>

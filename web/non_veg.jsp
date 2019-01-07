@@ -17,8 +17,8 @@
     </head>
     <body>
               
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
+    <nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -99,7 +99,7 @@
       <img src="Pepper_Barbeque.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:darkgreen">Pepper Barbecue Chicken I Cheese
 </p>
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="pepper.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
       </div>
        
     <div class="col-sm-4"> 
@@ -108,17 +108,17 @@
       <img src="Chicken_Tikka.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:maroon;">Chicken Tikka I Onion on Makhani Sauce
 </p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="ChickenTikka.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
 
         <div class="col-sm-4"> 
                    <H1 style="color:goldenrod;">CHICKEN SAUSAGE
 </H1>
-      <img src="Farmhouse.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <img src="ChickenSausage.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:crimson;">
 Chicken Sausage I Cheese
  </p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="chickenSausage.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
         </div>
   </div>
         </div>
@@ -130,28 +130,28 @@ Chicken Sausage I Cheese
         <H1 style="color:blue;">Chicken Golden Delight
 
 </H1>
-      <img src="Peppy_Paneer.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <img src="chickenGolden.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:midnightblue;">Mmm! Barbeque chicken with a topping of golden corn loaded with extra cheese. Worth its weight in gold!</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="chickenGolden.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-4">
                  <h1 style="color:olive"> CHICKEN FIESTA
        </H1>
-      <img src="Mexican_Green_Wave.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <img src="chickenFista.png" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:seagreen;">
 Grilled Chicken Rashers I Peri-Peri Chicken I Onion I Capsicum
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="ChickenFiesta.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         <div class="col-sm-4"> 
             <H1 style="color:darkred;">
 Non Veg Supreme</H1>
-      <img src="Deluxe_Veggie.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <img src="nonVegSupreme.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:crimson;">
 
 Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers
 </p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="NonVeg.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
         </div>
   </div>
     </div>
@@ -160,27 +160,27 @@ Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ
          <div class="col-sm-4"> 
         <h1 style="color:green;">Chicken Dominator
 </H1>
-      <img src="5_Pepper.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <img src="chickenDominator.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:darkred;;">Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers
 </p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="ChickenDominator.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
          <div class="col-sm-4"> 
-        <h1 style="color:olive;">RI-PERI CHICKEN</H1>
-      <img src="Veg_Extravaganz.jpg" class="img-circle"  style="width:100%" alt="Image">
+        <h1 style="color:olive;">PERI-PERI CHICKEN</H1>
+      <img src="oo.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:yellow;">
-PE
+
 Peri-Peri Chicken I Red Paprika
 </p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="peri.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
          <div class="col-sm-4"> 
         <h1 style="color:orangered;">PEPPER BARBECUE & ONION</H1>
-      <img src="Corn_&_Cheese.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <img src="oo.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:violet;">
 Pepper Barbecue Chicken I Onion
 </p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="pepperBarbecus.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
               </div>
     </div>

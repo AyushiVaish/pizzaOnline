@@ -120,7 +120,7 @@
       <p style="color:midnightblue;">
 
 Penne Pasta tossed with extra virgin olive oil, exotic herbs & a generous helping of new flavoured sauce.</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-6">
                  <h1 style="color:olive"> Non Veg Pasta Italiano White
@@ -131,7 +131,7 @@ Penne Pasta tossed with extra virgin olive oil, exotic herbs & a generous helpin
 
 Penne Pasta tossed with extra virgin olive oil, exotic herbs & a generous helping of new flavoured sauce.
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         </DIV>
         </DIV>

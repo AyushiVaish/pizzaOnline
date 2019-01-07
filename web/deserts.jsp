@@ -120,7 +120,7 @@
 
 
 Filled with delecious molten chocolate inside.</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-6">
                  <h1 style="color:olive">Butterscotch Mousse Cake
@@ -131,7 +131,7 @@ Filled with delecious molten chocolate inside.</p>
 
 A Creamy & Chocolaty indulgence with layers of rich, fluffy Butterscotch Cream and delicious Dark Chocolate Cake, topped with crunchy Dark Chocolate morsels - for a perfect dessert treat!
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         </DIV>
         </DIV>

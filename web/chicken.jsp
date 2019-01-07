@@ -97,7 +97,7 @@
 </H1>
       <img src="chi.png" class="img-circle"  style="width:100%" alt="Image">
     
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
                          <div class="col-sm-4">
         <H1 style="color:violet;">BONELESS CHICKEN WINGS - LEMON PEPPER
@@ -105,7 +105,7 @@
 </H1>
       <img src="boneless.png" class="img-circle"  style="width:100%" alt="Image">
       
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-4">
                  <h1 style="color:olive">
@@ -113,7 +113,7 @@ ROASTED CHICKEN WINGS PERI-PERI
        </H1>
       <img src="roasted1.png" class="img-circle"  style="width:100%" alt="Image">
      
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         </DIV>
         </DIV>
@@ -126,7 +126,7 @@ ROASTED CHICKEN WINGS PERI-PERI
 </H1>
       <img src="ROASTED.png" class="img-circle"  style="width:100%" alt="Image">
   
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
                          <div class="col-sm-4">
         <H1 style="color:violet;">CHICKEN MEATBALLS PERI-PERI
@@ -134,7 +134,7 @@ ROASTED CHICKEN WINGS PERI-PERI
 </H1>
       <img src="ken.png" class="img-circle"  style="width:100%" alt="Image">
     
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-4">
                  <h1 style="color:olive">
@@ -144,7 +144,8 @@ BONELESS CHICKEN WINGS PERI-PERI
       <p style="color:seagreen;">
 For all the meat cravers, try the classic non-veg Burger Pizza loaded with the goodness of burger and the greatness of pizza.
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
+
              </div>
         </DIV>
         </DIV>

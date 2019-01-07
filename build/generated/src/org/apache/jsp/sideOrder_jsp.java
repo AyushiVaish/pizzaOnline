@@ -119,6 +119,15 @@ public final class sideOrder_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("      </div>\n");
       out.write("  \n");
       out.write("    </div>\n");
+      out.write("     <a class=\"left carousel-control\" href=\"#myCarousel\" data-slide=\"prev\">\n");
+      out.write("      <span class=\"glyphicon glyphicon-chevron-left\"></span>\n");
+      out.write("      <span class=\"sr-only\">Previous</span>\n");
+      out.write("    </a>\n");
+      out.write("    <a class=\"right carousel-control\" href=\"#myCarousel\" data-slide=\"next\">\n");
+      out.write("      <span class=\"glyphicon glyphicon-chevron-right\"></span>\n");
+      out.write("      <span class=\"sr-only\">Next</span>\n");
+      out.write("    </a>\n");
+      out.write("  </div>\n");
       out.write("        <h1 style=\"color:red; font-size: 50px;text-align:center; font-family: helvetica\"><b>SIDE ORDERS</b></h1><br>\n");
       out.write("        <div class=\"container\">\n");
       out.write("       <div class=\"col-sm-2\">\n");

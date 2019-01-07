@@ -119,7 +119,7 @@
 </H1>
       <img src="pepsi.jpg" class="img-circle"  style="width:100%" alt="Image">
          
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              
         </DIV>

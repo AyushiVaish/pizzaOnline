@@ -107,7 +107,7 @@
       <p style="color:darkgreen">
 Peri - Peri chicken | Pepper Barbecue | Chicken Sausage in a fresh pan crust
 </p>
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="NonVegLoaded.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
       </div>
        
     <div class="col-sm-4"> 
@@ -117,7 +117,7 @@ Peri - Peri chicken | Pepper Barbecue | Chicken Sausage in a fresh pan crust
       <p style="color:maroon;">
 Chicken Sausage I Cheese
 </p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="ChickenMania.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
 
         <div class="col-sm-4"> 
@@ -128,7 +128,7 @@ Chicken Sausage I Cheese
 
 Pepper Barbecue Chicken
  </p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="PepperBarbecueMania.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
         </div>
   </div>
         </div>

@@ -17,8 +17,8 @@
 
     </head>
     <body>
-         <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
+         <nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -109,7 +109,7 @@
       <p style="color:darkgreen">
 Tomato | Grilled Mushroom |Jalapeno |Golden Corn | Beans in a fresh pan crust
 </p>
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="VegLoaded.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
       </div>
        
     <div class="col-sm-4"> 
@@ -119,7 +119,7 @@ Tomato | Grilled Mushroom |Jalapeno |Golden Corn | Beans in a fresh pan crust
       <p style="color:maroon;">
 Orange Cheddar Cheese I Mozzarella
 </p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="CheesyMania.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
 
         <div class="col-sm-4"> 
@@ -130,7 +130,7 @@ Orange Cheddar Cheese I Mozzarella
 Capsicum
 
  </p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="CapsicumMania.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
         </div>
   </div>
         </div>
@@ -145,7 +145,7 @@ Capsicum
       <img src="onion.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:midnightblue;">
 Onion</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="OnoinMania.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-4">
                  <h1 style="color:olive">GOLDEN CORN
@@ -155,7 +155,7 @@ Onion</p>
 Golden Corn
 
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="GoldenCornMania.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         <div class="col-sm-4"> 
             <H1 style="color:darkred;">PANEER & ONION
@@ -164,7 +164,7 @@ Golden Corn
       <p style="color:crimson;">
 Creamy Paneer I Onion
 </p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="PaneerOnionMania.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
         </div>
   </div>
     </div>

@@ -19,8 +19,8 @@
     </head>
     <body>
        
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
+    <nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -103,7 +103,7 @@
 A hugely popular margherita, with a deliciously tangy single cheese topping
 
 </p>
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="home.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
       </div>
        
     <div class="col-sm-4"> 
@@ -111,7 +111,7 @@ A hugely popular margherita, with a deliciously tangy single cheese topping
       <img src="Double_Cheese_Margherita.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:maroon;">
 The ever-popular Margherita - loaded with extra cheese... oodies of it!</p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="douleCheese.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
 
         <div class="col-sm-4"> 
@@ -121,7 +121,7 @@ The ever-popular Margherita - loaded with extra cheese... oodies of it!</p>
 A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes
 
  </p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="FarmHouse.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
         </div>
   </div>
         </div>
@@ -134,7 +134,7 @@ A pizza that goes ballistic on veggies! Check out this mouth watering overload o
 </H1>
       <img src="Peppy_Paneer.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:midnightblue;">Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="peppyPaneer.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-4">
                  <h1 style="color:olive"> </br>
@@ -142,7 +142,7 @@ A pizza that goes ballistic on veggies! Check out this mouth watering overload o
       <img src="Mexican_Green_Wave.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:seagreen;">
 A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.</p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="Mexican.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         <div class="col-sm-4"> 
             <H1 style="color:darkred;">Deluxe Veggie</H1>
@@ -151,7 +151,7 @@ A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno 
 For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all.
 
 </p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="Delux.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
         </div>
   </div>
     </div>
@@ -162,21 +162,21 @@ For a vegetarian looking for a BIG treat that goes easy on the spices, this one'
       <img src="5_Pepper.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:darkmagenta;">
 Dominos introduces "5 Peppers" an exotic new Pizza. Topped with red bell pepper, yellow bell pepper, capsicum, red paprika, jalapeno & sprinkled with exotic herb</p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="5Pepper.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
          <div class="col-sm-4"> 
         <h1 style="color:darkgoldenrod;">Veg Extravaganza</H1>
       <img src="Veg_Extravaganz.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:darkcyan;">
 A pizza that decidedly staggers under an overload of golden corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around.></p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="vegExtra.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
          <div class="col-sm-4"> 
         <h1 style="color:darkslateblue;">CHEESE N CORN</H1>
       <img src="Corn_&_Cheese.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:pink;">
 Cheese I Golden Corn</p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="cheeseNCorn.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
               </div>
     </div>
@@ -187,21 +187,21 @@ Cheese I Golden Corn</p>
       <img src="Paneer_Makhni.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:green;">
 Paneer and Capsicum on Makhani Sauce</p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="PaneerMakhani.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
          <div class="col-sm-4"> 
         <h1 style="color:blue;">VEGGIE PARADISE</H1>
       <img src="veggie.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:olive;">
 Goldern Corn, Black Olives, Capsicum & Red Paprika</p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="VeggiePara.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
          <div class="col-sm-4"> 
         <h1 style="color:yellow;">FRESH VEGGIE</H1>
       <img src="Fresh_Veggie.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:maroon;">
 Onion I Capsicum</p>    
-   <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="freshVeggie.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
             </div>
     </div>

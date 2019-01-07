@@ -123,7 +123,7 @@
 
 
 Crisp and golden outside,flavorful burst of cheese, potato & spice inside</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
                          <div class="col-sm-4">
         <H1 style="color:violet;">Crunchy Strips
@@ -132,7 +132,7 @@ Crisp and golden outside,flavorful burst of cheese, potato & spice inside</p>
       <img src="Crunchy.png" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:red;">
 Oven baked wheat thin crips with peri peri seasoning with a cheesy dip</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-4">
                  <h1 style="color:olive">
@@ -143,7 +143,7 @@ Taco Mexicana-Veg(Single)
 
 Truly irresistible! Crispy taco with a decicious veg patty & creamy sauce
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         </DIV>
         </DIV>
@@ -159,7 +159,7 @@ CRINKLE FRIES
       <p style="color:midnightblue;">
 
 Crispy wavy masala coated fries served with a spicy tomato chilli sauce</p>    
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
        <div class="col-sm-4">
                  <h1 style="color:olive">Taco Mexicana Veg
@@ -170,7 +170,7 @@ Crispy wavy masala coated fries served with a spicy tomato chilli sauce</p>
 
 A crispy flaky wrap filled with Mexican Arancini Bean Patty rolled over a creamy Harissa Sauce.
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
              <div class="col-sm-4">
                  <h1 style="color:red"> Taco Mexicana Non Veg
@@ -183,7 +183,7 @@ Taco Mexicana Non Veg
 A crispy flaky wrap filled with Hot and Smoky Chicken Patty rolled over a creamy Harissa Sauce.
 
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         </DIV>
          </DIV>
@@ -197,7 +197,7 @@ A crispy flaky wrap filled with Hot and Smoky Chicken Patty rolled over a creamy
 </H1>
       <img src="veg_parcel.jpg" class="img-circle"  style="width:100%" alt="Image">
        
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
                          <div class="col-sm-4">
         <H1 style="color:maroon;">Chicken Parcel
@@ -205,7 +205,7 @@ A crispy flaky wrap filled with Hot and Smoky Chicken Patty rolled over a creamy
 </H1>
       <img src="chickenn.jpg" class="img-circle"  style="width:100%" alt="Image">
           
-    <a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+    <a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
              <div class="col-sm-4">
                  <h1 style="color:olive"> BROWNIE FANTASY
@@ -216,7 +216,7 @@ A crispy flaky wrap filled with Hot and Smoky Chicken Patty rolled over a creamy
 
 Sweet Temptation! Hot Chocolate Brownie drizzled with chocolate fudge sauce
 </p>
-<a href="#" class="btn btn-primary custom-btn">ORDER NOW</a>
+<a href="SideOrders.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
         </DIV>
         </DIV>
