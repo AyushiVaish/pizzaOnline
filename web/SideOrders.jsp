@@ -303,19 +303,18 @@
       <img src="boneless1.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
       <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn">ADD TO CART</a>
+   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
     </div>
   </div>
         </div>
-                     <div class="container text-center" style="background-color:black ;" >  
-           
+                 <div class="container text-center" style="background-color:black ;" >      
   <div class="row">
          <div class="col-sm-4"> 
-        <h1 style="color:orange;">BONELESS CHICKEN WINGS-LEMON PEPPER @139</H1>
+      <h1 style="color:orange;"> BONELESS CHICKEN WINGS-LEMON PEPPER @139 </h1>
       <img src="boneless.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn">ADD TO CART</a>
+        <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
+   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP:5%">ADD TO CART</a>
     </div>
        
          <div class="col-sm-4"> 
@@ -334,12 +333,12 @@
     </div>
   </div>
         </div>
-                     <div class="container text-center" style="background-color:black ;" >  
+     <div class="container text-center" style="background-color:black ;" >  
            
   <div class="row">
           <div class="col-sm-6"> 
         <h1 style="color:maroon;">CHICKEN MEATBALLS-SRIACHA @99 </H1>
-      <img src="chi.png" class="img-circle"  style="width:100%" alt="Image">
+      <img src="chi.png" class="img-circle" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
       <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
    <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
@@ -348,7 +347,7 @@
        
         <div class="col-sm-6" >
         <h1 style="color:green;">TOMATO KETCHUP @1</H1>
-      <img src="ketchup.jpg" class="img-circle"  style="width:100%" alt="Image">
+      <img src="ketchup.jpg" class="img-circle"   alt="Image">
    <h3 style="color:green;">ADD QUANTITY :</h3> <br>
       <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
    <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>

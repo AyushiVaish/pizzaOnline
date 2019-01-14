@@ -108,6 +108,63 @@
         </div>
         </div>
         </form>
+         <!-- About Container -->
+         <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica" id="about"><b>About</b></h1>
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+   
+    <p>FooDuDE's Pizza India has remained focused on delivering great tasting Pizzas and sides, superior quality, exceptional guest care and value for money offerings.
+        <br> <br>We have endeavored to establish a reputation for being a home delivery specialist capable of delivering pizzas within 30 minutes or else FREE to a community of loyal consumers from all our restaurants around the country.
+        <br><br>FooDuDE's vision is focused on " Exceptional people on a mission to be the best pizza delivery company in the world!" We are committed to bringing fun, happiness and convenience to lives of our consumers by delivering delicious pizzas to their doorstep and our efforts are aimed at fulfilling this commitment towards a large and ever-growing guest base.<br>FooDuDE's constantly strives to develop products that suit the tastes of our consumers and hence delighting them. FooDuDE's believes strongly in the strategy of 'Think global and act local'.<br><br> Thus, time and again we have been innovating with delicious new products such as crusts, toppings and flavours suitable to the taste buds of Indian Consumers. Further providing value for money and affordable products to our consumers has been an important part of our efforts. Our initiatives such as Fun Meal and Pizza Mania have been extremely popular with consumers looking for an affordable and value for money meal option.<br><br>FooDuDE's believes that when a box of pizza is opened, family and friends come together to share the pizza. Hence, our brand positioning: ‘Yeh Hai Rishton Ka Time'That's why, all our efforts, whether it is a new innovative and delicious product, offering consumers value for money deals, great service, countrywide presence or the promise to deliver in 30 minutes or free are all directed towards making relationships stronger, warmer and more fun by giving consumers an opportunity to get together, catch up, reunite and spend more time together.Consumers can order their pizzas by calling the single Happiness Hotline number 714653 OR order online at Pizza Online.</p>
+    <p><strong>The Chef?</strong> Mr. Italiano himself<img src="chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+    <p>We are proud of our interiors.</p>
+    <img src="im.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Opening Hours</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s7">
+        <p>Mon & Tue CLOSED</p>
+        <p>Wednesday 10.00 - 24.00</p>
+        <p>Thursday 10:00 - 24:00</p>
+      </div>
+      <div class="w3-col s7">
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="map1.jpg" class="w3-image w3-greyscale" style="width:100%;" id="map">
+
+<!-- Contact -->
+ <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica" id="contact"><b>CONTACT</b></h1>
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right" ></i><a href="#"> Mumbai,India</a></p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right" ></i><a href="tel:714653"> Phone:716543</a></p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i><a href="#"> Email: foodude12@gmail.com</a></p>
+    <br>
+    
+    <form action="#" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name" style="color:black"></p>
+        <p> <input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"  style="color:black"></p> 
+        <p>     <input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date"  value="2017-11-16T20:00" style="color:black" ></p>        
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" style="color:black;" required name="Message">
+        <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+</div>
              <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
          <footer class="container-fluid text-center" style="BACKGROUND-COLOR:black;">
              <div class="row">
@@ -116,25 +173,25 @@
                         
                          <h2 style="color:red ;text-align:left;">ORDER ONLINE</h2>
                               
-                         <h5 style="color:blue;text-align:left"> <a href="#">PIZZA MENU</a></h5>
+                         <h5 style="color:blue;text-align:left"> <a href="menu.jsp">PIZZA MENU</a></h5>
                          <h5 style="color:blue;text-align:left"> <a href="#">NUTRITIONAL INFORMATION</a></h5>
-                         <h5 style="color:blue;text-align:left"> <a href="#">VOUCHERS AND COUPONS</a></h5>
+                         
                          
                      
                  </div>
                  <div class="col-sm-4">
                      <h2 style="color:red;text-align: center;">CONTACT US </H2>
                     
-                     <h5 style="color:blue;text-align: center;"> <a href="#">713456</a></h5>
-                     <h5 style="color:blue;text-align: center;"> <a href="#">CONTACT DETAIL</a></h5>
-                     <h5 style="color:blue;text-align: center;"> <a href="#">FEEDBACK</a></h5>
+                    
+                     <h5 style="color:blue;text-align: center;"> <a href="#contact">CONTACT DETAIL</a></h5>
+                     <h5 style="color:blue;text-align: center;"> <a href="feedback.jsp">FEEDBACK</a></h5>
                      
                  </div>
                  <div class="col-sm-4">
                      <H2 style="color:red ;text-align:right;">HELP</H2>
                
                      <h5 style="color:blue ;text-align:right;"> <a href="#">STORE FINDER</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">SITE MAP</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="#map">SITE MAP</a></h5>
                      <h5 style="color:blue ;text-align:right;"> <a href="#">OTHERS</a></h5>
                      
                  </div>

@@ -1,19 +1,19 @@
+<%-- 
+    Document   : mediumEverday
+    Created on : Jan 14, 2019, 5:14:53 PM
+    Author     : USER
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>PIZZA ONLINE ORDER</title>
-        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Medium Everday Offer</title>
+  <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -39,7 +39,7 @@ and open the template in the editor.
       <ul class="nav navbar-nav navbar-right">
            <li><a href="#menu">Menu</a></li>
             <li><a href="#about">Inside FooDuDe</a></li>
-          <li><a href="specialOffer.jsp">SPECIAL OFFERS</a></li>
+          <li><a href="#section1">SPECIAL OFFERS</a></li>
           
            <li> <a href="tel:714653">
                    <span class="glyphicon glyphicon-earphone"></span> 714653</a></li>
@@ -50,8 +50,7 @@ and open the template in the editor.
     </div>
   </div>
 </nav>
-       
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -96,69 +95,84 @@ and open the template in the editor.
       <span class="sr-only">Next</span>
     </a>
   </div>
-
-
-         <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica" id="menu"><b>START ORDERING</b></h1><br>
+        
+         <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica" id="menu"><b>Today's Everday Value Offers</b></h1><br>
+  <div class="container">
+       <div class="col-sm-9">
+           <h4 class="active">  <a href="specialOffer.jsp"><b>Regular Pizzas Starting @99 Each</b></a></h4>
+       </div>
+            <div class="col-sm-3">
+                <h4><a href="mediumEverday.jsp"><b>Medium Pizzas Starting @199 Each</b></a></h4>
+            </div>
+        
+        </div>
          <div class="container text-center" style="background-color:black ;" >  
            
   <div class="row">
-      <div class="col-sm-4" >
-        <h1 style="color:green;">VEG PIZZA</H1>
-      <img src="veg.jpg" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:darkgreen">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier and feel good to have</p>
-   <a href="menu.jsp" class="btn btn-primary custom-btn">View All</a>
+      <div class="col-sm-6" >
+        <h1 style="color:green;">2 Pizzas at ₹199 each</H1>
+      <img src="at99.jpg" class="img-circle" alt="Image">
+      <p style="color:blue">Select any 2 Medium Pizzas Worth <strike>₹305</strike> @ <span style="color:red">₹199</span> each
+</p>
+   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
+        <div class="col-sm-6" >
+        <h1 style="color:violet;">2 Pizzas at ₹249 each</H1>
+      <img src="at139.jpg" class="img-circle"  alt="Image">
+      <p style="color:orange">
+          Select any 2  Medium Pizzas Worth <strike>₹385</strike> @ <span style="color:red;">₹249</span> each</p>
+   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+      </div>
+  </div>
+         </div>
+          <div class="container text-center" style="background-color:black ;" >  
+           
+  <div class="row">
+      <div class="col-sm-6" >
+        <h1 style="color:olive;">2 Pizzas at ₹299 each</H1>
+      <img src="at179.jpg" class="img-circle" alt="Image">
+      <p style="color:maroon">
+          Select any 2  Medium Worth <strike>₹405</strike> @ <span style="color:red">₹299</span> each</p>
+   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+      </div>
+        <div class="col-sm-6" >
+        <h1 style="color:red;">2 Pizzas at ₹399 each</H1>
+      <img src="at319.jpg" class="img-circle"   alt="Image">
+      <p style="color:blue">
+          Select any 2  Medium Pizzas Worth <strike>₹555</strike> @ <span style="color:red">₹399</span> each</p>
+   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+      </div>
+  </div>
+         </div>
        
-    <div class="col-sm-4"> 
-        <h1 style="color:red;">NON-VEG PIZZA</H1>
-      <img src="nonveg.jpg" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:maroon;">Choose your favourite non-veg pizzas from the Domino's Pizza menu. Get fresh non-veg pizza with your choice of crusts & toppings</p>    
-   <a href="non_veg.jsp" class="btn btn-primary custom-btn">View All</a>
-    </div>
-
-        <div class="col-sm-4"> 
-                   <H1 style="color:goldenrod;">PIZZA MANIA </H1>
-      <img src="pizzaMania.png" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:lightcoral"> Indulge into mouth-watering taste of Pizza mania range, perfect answer to all your food cravings</p>    
-    <a href="pizzaMania.jsp" class="btn btn-primary custom-btn">View All</a>
-        </div>
-  </div>
-        </div>
+   <br>
+        <br>
+          
+         <div class="container" style="background-color:gray">
+             <h1>Everyday Value Offer</h1>
+             <p>Avail Domino's Everyday Value Offers and get 2 Regular Pizzas starting at Rs.99 each or get 2 Medium Pizzas starting at Rs.199 each. View all the Everyday Value Offers & Pizza Deals below. T & C apply.</p>
+             <br>
+             <h3>Terms & Conditions:</h3>
+             <p style="background-color:skyblue;">No Coupon codes are required for this offer.</p>
+             <p style="background-color:skyblue;">Offer applicable on selected items.</p>
+             <p style="background-color:skyblue;">Offer will not be applicable on Sides, Desserts and other Add-ons.</p>
+             <p style="background-color:skyblue;">Offer cannot be clubbed with any other offer / scheme (such as Coupons / Pizza Mania).</p>
+             <p style="background-color:skyblue;">Everyday Value Offer is only applicable when 2 Pizzas are selected from the options provided.</p>
+             
+             <br><br>
+             <h1>Domino's Coupons & Offers</h1>
+             <br>
+             <h3>Terms & Conditions:</h3>
+             <p style="background-color:skyblue;">Discount applicable on selected items.</p>
+             <p style="background-color:skyblue;">50% Discount will be applied to the pizza with the lesser value of the two pizzas.</p>
+             <p style="background-color:skyblue;">Discount will be applied to prices of items within the cart. Taxes are not subject to discounts.</p>
+             <p style="background-color:skyblue;">Discount will not be applicable to items already on discount.</p>
+             <p style="background-color:skyblue;">Discount will not be applicable on Sides, Desserts and other Add-ons.</p>
+             <p style="background-color:skyblue;">Discount cannot be clubbed with any other offer / scheme (such as Everyday Value Offer / Pizza Mania).</p>
+             <p style="background-color:skyblue;">Only one Domino's coupon is applicable per transaction.</p>
+         </div>
         
-    <div class="container text-center" style="background-color:black">
-        <div class="row">
- 
-    <div class="col-sm-4"> 
-        <H1 style="color:blue;">SIDE AND BEVERAGES</H1>
-      <img src="sideAnd.jpg" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:midnightblue;">Complement your pizza with wide range of sides & beverages available at Domino's Pizza India</p>    
-    <a href="sideOrder.jsp" class="btn btn-primary custom-btn">View All</a>
-    </div>
-             <div class="col-sm-4">
-                 <h1 style="color:olive">BURGER </br>
-         PIZZA</H1>
-      <img src="burgerPizza.png" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:seagreen;">Looks like a burger tastes like a pizza. Fresh veggies with the goodness of wheat, baked to perfection</p>
-<a href="burgerPizza.jsp" class="btn btn-primary custom-btn">View All</a>
-             </div>
-        <div class="col-sm-4"> 
-            <H1 style="color:darkred;">SPECIALITY CHICKEN</H1>
-      <img src="specialityChicken.png" class="img-circle"  style="width:100%" alt="Image">
-      <p style="color:crimson;">Tender, juicy, melt-in-mouth, a whole new range of drool-worthy boneless chicken and chicken wings that are tossed in exotic, international flavours</p>    
-    <a href="chicken.jsp" class="btn btn-primary custom-btn">View All</a>
-        </div>
-  </div>
-    </div>
-         <!-- About Container -->
-         <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica" id="about"><b>About</b></h1>
-<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
-  <div class="w3-content">
-   
-    <p>FooDuDE's Pizza India has remained focused on delivering great tasting Pizzas and sides, superior quality, exceptional guest care and value for money offerings.
-        <br> <br>We have endeavored to establish a reputation for being a home delivery specialist capable of delivering pizzas within 30 minutes or else FREE to a community of loyal consumers from all our restaurants around the country.
-        <br><br>FooDuDE's vision is focused on " Exceptional people on a mission to be the best pizza delivery company in the world!" We are committed to bringing fun, happiness and convenience to lives of our consumers by delivering delicious pizzas to their doorstep and our efforts are aimed at fulfilling this commitment towards a large and ever-growing guest base.<br>FooDuDE's constantly strives to develop products that suit the tastes of our consumers and hence delighting them. FooDuDE's believes strongly in the strategy of 'Think global and act local'.<br><br> Thus, time and again we have been innovating with delicious new products such as crusts, toppings and flavours suitable to the taste buds of Indian Consumers. Further providing value for money and affordable products to our consumers has been an important part of our efforts. Our initiatives such as Fun Meal and Pizza Mania have been extremely popular with consumers looking for an affordable and value for money meal option.<br><br>FooDuDE's believes that when a box of pizza is opened, family and friends come together to share the pizza. Hence, our brand positioning: ‘Yeh Hai Rishton Ka Time'That's why, all our efforts, whether it is a new innovative and delicious product, offering consumers value for money deals, great service, countrywide presence or the promise to deliver in 30 minutes or free are all directed towards making relationships stronger, warmer and more fun by giving consumers an opportunity to get together, catch up, reunite and spend more time together.Consumers can order their pizzas by calling the single Happiness Hotline number 714653 OR order online at Pizza Online.</p>
-    <p><strong>The Chef?</strong> Mr. Italiano himself<img src="chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
-    <p>We are proud of our interiors.</p>
+    
     <img src="im.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
     <h1><b>Opening Hours</b></h1>
     
@@ -174,10 +188,7 @@ and open the template in the editor.
         <p>Sunday Closed</p>
       </div>
     </div>
-    
-  </div>
-</div>
-
+  
 <!-- Image of location/map -->
 <img src="map1.jpg" class="w3-image w3-greyscale" style="width:100%;" id="map">
 
@@ -235,8 +246,7 @@ and open the template in the editor.
                
                      <h5 style="color:blue ;text-align:right;"> <a href="#">STORE FINDER</a></h5>
                      <h5 style="color:blue ;text-align:right;"> <a href="#map">SITE MAP</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Terms and Conditions</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Privacy Policy</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="#">OTHERS</a></h5>
                      
                  </div>
                 
@@ -255,6 +265,6 @@ and open the template in the editor.
          </footer>
      
     </div>
- <p style="text-align: right"><b>All rights reserved. Copyright © Jubilant FoodWorks Ltd. Disclaimer | T&C | Privacy Policy </b></p>
+
     </body>
 </html>
