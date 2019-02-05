@@ -12,8 +12,9 @@
         <title>Medium Everday Offer</title>
   <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <link rel="stylesheet" href="style.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -34,12 +35,12 @@
       <img src="pizzaIcon1.jpg" class="img-circle"  width="184" height="136">
         </div> 
     </div>
-      <a href="#myPage" style="color:red;font-size:70px;font-family:Georgia;text-align: center"><b>FooDuDE</b></a>
+      <a href="index.html" style="color:red;font-size:70px;font-family:Georgia;text-align: center"><b>FooDuDE</b></a>
     <div class="collapse navbar-collapse" id="myNavbar" style="font-size:20px;color:green;">
       <ul class="nav navbar-nav navbar-right">
            <li><a href="#menu">Menu</a></li>
             <li><a href="#about">Inside FooDuDe</a></li>
-          <li><a href="#section1">SPECIAL OFFERS</a></li>
+          <li><a href="specialOffer.jsp">SPECIAL OFFERS</a></li>
           
            <li> <a href="tel:714653">
                    <span class="glyphicon glyphicon-earphone"></span> 714653</a></li>
@@ -98,7 +99,7 @@
         
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica" id="menu"><b>Today's Everday Value Offers</b></h1><br>
   <div class="container">
-       <div class="col-sm-9">
+       <div class="col-sm-6">
            <h4 class="active">  <a href="specialOffer.jsp"><b>Regular Pizzas Starting @99 Each</b></a></h4>
        </div>
             <div class="col-sm-3">
@@ -109,14 +110,14 @@
          <div class="container text-center" style="background-color:black ;" >  
            
   <div class="row">
-      <div class="col-sm-6" >
+      <div class="col-sm-5" >
         <h1 style="color:green;">2 Pizzas at ₹199 each</H1>
       <img src="at99.jpg" class="img-circle" alt="Image">
       <p style="color:blue">Select any 2 Medium Pizzas Worth <strike>₹305</strike> @ <span style="color:red">₹199</span> each
 </p>
    <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
-        <div class="col-sm-6" >
+        <div class="col-sm-5" >
         <h1 style="color:violet;">2 Pizzas at ₹249 each</H1>
       <img src="at139.jpg" class="img-circle"  alt="Image">
       <p style="color:orange">
@@ -128,14 +129,14 @@
           <div class="container text-center" style="background-color:black ;" >  
            
   <div class="row">
-      <div class="col-sm-6" >
+      <div class="col-sm-5" >
         <h1 style="color:olive;">2 Pizzas at ₹299 each</H1>
       <img src="at179.jpg" class="img-circle" alt="Image">
       <p style="color:maroon">
           Select any 2  Medium Worth <strike>₹405</strike> @ <span style="color:red">₹299</span> each</p>
    <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
-        <div class="col-sm-6" >
+        <div class="col-sm-5" >
         <h1 style="color:red;">2 Pizzas at ₹399 each</H1>
       <img src="at319.jpg" class="img-circle"   alt="Image">
       <p style="color:blue">
@@ -203,25 +204,15 @@
       <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i><a href="#"> Email: foodude12@gmail.com</a></p>
     <br>
     
-    <form action="#" target="_blank">
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name" style="color:black"></p>
-        <p> <input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"  style="color:black"></p> 
-        <p>     <input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date"  value="2017-11-16T20:00" style="color:black" ></p>        
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" style="color:black;" required name="Message">
-        <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
+    
   </div>
 </div>
 </div>
-    <div class="container-fluid">
+   <div class="container-fluid">
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
-         <footer class="w3-container-fluid  w3-padding-64 w3-black">
-  <div class="w3-row-padding">
-    <div class="w3-third w3-center">
+         <footer style="background-color: black;">
+ <div class="row">
+     <div class="col-sm-5">
         
                      
                         
@@ -233,7 +224,7 @@
                          
                      
                  </div>
-                 <div class="w3-third  w3-center">
+                 <div class="col-sm-2">
                      <h2 style="color:red;text-align: center;">CONTACT US </H2>
                     
                      
@@ -241,16 +232,19 @@
                      <h5 style="color:blue;text-align: center;"> <a href="feedback.jsp">FEEDBACK</a></h5>
                      
                  </div>
-                  <div class="w3-third  w3-center">
-                     <H2 style="color:red ;text-align:right;">HELP</H2>
+                   <div class="col-sm-4">
+                            <H2 style="color:red ;text-align:right;">HELP</H2>
                
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">STORE FINDER</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#map">SITE MAP</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">OTHERS</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="#map">STORE FINDER</a></h5>
+                    
+                     <h5 style="color:blue ;text-align:right;"> <a href="#">Terms and Conditions</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="#">Privacy Policy</a></h5>
                      
                  </div>
                 
-
+ 
+             <br>
+             
 <p style="text-align:center">
 <!--Facebook icon-->
 <a href="http://facebook.com/flashissue" target="_blank"><img alt="" src="https://s3.amazonaws.com/flashissue/YdvNzBsfTrqg9Cx9Tozh_Facebook-e1386022800280.png" style="height:50px; width:50px" /> </a>&nbsp; &nbsp; &nbsp;
@@ -262,9 +256,10 @@
 <a href="http://linkedin.com" target="_blank"><img alt="" src="https://s3.amazonaws.com/flashissue/dJtLdIsbRAix3zQhvygP_linkedin_icon_dark_hover-5be7d72ca83a10c0c76c32d141b0b828.png" style="height:50px; width:50px" /> </a>
 </p>
   </div>
-         </footer>
+        </footer>
      
     </div>
-
-    </body>
+<br>
+  <p style="text-align: right"><b>All rights reserved. Copyright © FooDuDe Disclaimer | T&C | Privacy Policy </b></p>
+         </body>
 </html>
