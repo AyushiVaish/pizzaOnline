@@ -45,12 +45,7 @@
                 color: #fff;
                 
             }
-         
-   
-       
-            
-       
-        
+ 
 </style>
 <body>
          <nav class="navbar navbar-inverse ">
@@ -82,7 +77,7 @@
     </div>
   </div>
 </nav>
-    <form method="post">
+    <form method="post" action="Delux">
         <div style="background-image:url(pizza.jpg)">
         <div class="form-area">
             <h1 STYLE="COLOR:RED">PLACE ORDER</h1>
@@ -117,14 +112,8 @@
                <B style="color: blue;">Red Paprika : </b><input type="checkbox"><br>
                <B style="color: blue;">Golden Corn :</b><input type="checkbox"><br>
                <B style="color: blue;">Paneer :</b><input type="checkbox"><br>
-                             
-                                    
-                <h3 style="color:maroon;text-align:left"><b>your total amount is:</b></h3> 
-
-              
-          <a href="#" class="btn btn-primary custom-btn" style="margin-top: 5%; margin-bottom: 5%">Buy Now</a></br>
-      
-         
+                <input type="submit" value="Order now" class="btn btn-primary custom-btn" style="margin-top: 5%; margin-bottom: 5%">
+       
         </div>
         </div>
         </form>
@@ -151,13 +140,13 @@
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
          <footer style="background-color: black;">
  <div class="row">
-     <div class="col-sm-5">
+    <div class="col-sm-5">
         
                      
                         
                          <h2 style="color:red ;text-align:left;">ORDER ONLINE</h2>
                               
-                         <h5 style="color:blue;text-align:left"> <a href="#menu">PIZZA MENU</a></h5>
+                         <h5 style="color:blue;text-align:left"> <a href="index.html">PIZZA MENU</a></h5>
                          <h5 style="color:blue;text-align:left"> <a href="#">NUTRITIONAL INFORMATION</a></h5>
                          
                          
@@ -172,17 +161,12 @@
                      
                  </div>
                    <div class="col-sm-4">
-                      <H2 style="color:red ;text-align:right;">HELP</H2>
+                     <H2 style="color:red ;text-align:right;">HELP</H2>
                
                      <h5 style="color:blue ;text-align:right;"> <a href="#map">STORE FINDER</a></h5>
-                    
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Terms and Conditions</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Privacy Policy</a></h5>
-                     
-                 </div>
-                
- 
-             <br>
+                  <h5 style="color:blue ;text-align:right;"> <a href="termsAndConditions.html">Terms and Conditions</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="privacy.html">Privacy Policy</a></h5>
+                 </div>     <br>
              
 <p style="text-align:center">
 <!--Facebook icon-->

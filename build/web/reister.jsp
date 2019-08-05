@@ -110,18 +110,18 @@
             </div>
             <h2>SIGNUP FORM</h2>
             <p>USER NAME:</p>
-            <input type="text" id="username" required>
+            <input type="text" name="username" required>
            
             <p>YOUR EMAIL:</p>
-            <input type="email" id="email" required  />
+            <input type="email" name="email" required  />
              <p>YOUR PASSWORD:</p>
-             <input type="password" title="Password must contain :Minimum 9 characters" id="pass" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" />
+             <input type="password" title="Password must contain :Minimum 9 characters" name="pass" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" />
                    <p>YOUR CONTACT NUMBER:</p>
-            <input type="number" id="number" required pattern="/^\d{10}$/" />
+            <input type="number" name="number" required pattern="/^\d{10}$/" />
                 <p>YOUR ADDRESS:</p>
-                <input type="text" id="address" required />
+                <input type="text" name="address" required />
                 <p>YOUR ZIP CODE:</p>
-                <input type="text" id="zip" required />
+                <input type="text" name="zip" required />
                 
                 <input type="submit" value="Sign In" class="btn"> 
                 <p style="text-transform: lowercase; font-size: 20px; margin-top: 10px;">If you are already SignIn <a href="login.jsp">CLICK ME</a></p>

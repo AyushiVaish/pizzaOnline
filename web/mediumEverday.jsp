@@ -115,14 +115,14 @@
       <img src="at99.jpg" class="img-circle" alt="Image">
       <p style="color:blue">Select any 2 Medium Pizzas Worth <strike>₹305</strike> @ <span style="color:red">₹199</span> each
 </p>
-   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+   <a href="order.jsp" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
         <div class="col-sm-5" >
         <h1 style="color:violet;">2 Pizzas at ₹249 each</H1>
       <img src="at139.jpg" class="img-circle"  alt="Image">
       <p style="color:orange">
           Select any 2  Medium Pizzas Worth <strike>₹385</strike> @ <span style="color:red;">₹249</span> each</p>
-   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+   <a href="order.jsp" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
   </div>
          </div>
@@ -134,14 +134,14 @@
       <img src="at179.jpg" class="img-circle" alt="Image">
       <p style="color:maroon">
           Select any 2  Medium Worth <strike>₹405</strike> @ <span style="color:red">₹299</span> each</p>
-   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+   <a href="order.jsp" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
         <div class="col-sm-5" >
         <h1 style="color:red;">2 Pizzas at ₹399 each</H1>
       <img src="at319.jpg" class="img-circle"   alt="Image">
       <p style="color:blue">
           Select any 2  Medium Pizzas Worth <strike>₹555</strike> @ <span style="color:red">₹399</span> each</p>
-   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+   <a href="order.jsp" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
   </div>
          </div>
@@ -218,7 +218,7 @@
                         
                          <h2 style="color:red ;text-align:left;">ORDER ONLINE</h2>
                               
-                         <h5 style="color:blue;text-align:left"> <a href="#menu">PIZZA MENU</a></h5>
+                         <h5 style="color:blue;text-align:left"> <a href="index.html">PIZZA MENU</a></h5>
                          <h5 style="color:blue;text-align:left"> <a href="#">NUTRITIONAL INFORMATION</a></h5>
                          
                          
@@ -233,13 +233,11 @@
                      
                  </div>
                    <div class="col-sm-4">
-                            <H2 style="color:red ;text-align:right;">HELP</H2>
+                     <H2 style="color:red ;text-align:right;">HELP</H2>
                
                      <h5 style="color:blue ;text-align:right;"> <a href="#map">STORE FINDER</a></h5>
-                    
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Terms and Conditions</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Privacy Policy</a></h5>
-                     
+                  <h5 style="color:blue ;text-align:right;"> <a href="termsAndConditions.html">Terms and Conditions</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="privacy.html">Privacy Policy</a></h5>
                  </div>
                 
  

@@ -47,12 +47,12 @@
 </nav>
    <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica"><b>PLACE YOUR ORDER</b></h1><br>
    <div class="container" style="background-color: yellow;">
-       <div class="col-sm-5">
-           <h4 style="color:olive;"><a href="homeDelivery.html">
+       <div class="col-sm-8">
+           <h4 style="color:red;"><a href="homeDelivery.html">
           <span class="glyphicon glyphicon-home">
         <b>HOME DELIVERY</b></span></a></h4>
        </div>
-                  <div class="col-sm-5">
+                  <div class="col-sm-3">
                       <h4 style="color:blue;"><a href="pickup.html"><span class="glyphicon glyphicon-circle-arrow-up"> <b> PICK UP</b></span></a></h4>
        </div>
    </div>
@@ -80,13 +80,13 @@
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
          <footer style="background-color: black;">
  <div class="row">
-     <div class="col-sm-5">
+  <div class="col-sm-5">
         
                      
                         
                          <h2 style="color:red ;text-align:left;">ORDER ONLINE</h2>
                               
-                         <h5 style="color:blue;text-align:left"> <a href="#menu">PIZZA MENU</a></h5>
+                         <h5 style="color:blue;text-align:left"> <a href="index.html">PIZZA MENU</a></h5>
                          <h5 style="color:blue;text-align:left"> <a href="#">NUTRITIONAL INFORMATION</a></h5>
                          
                          
@@ -101,13 +101,11 @@
                      
                  </div>
                    <div class="col-sm-4">
-                         <H2 style="color:red ;text-align:right;">HELP</H2>
+                     <H2 style="color:red ;text-align:right;">HELP</H2>
                
                      <h5 style="color:blue ;text-align:right;"> <a href="#map">STORE FINDER</a></h5>
-                    
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Terms and Conditions</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Privacy Policy</a></h5>
-                     
+                  <h5 style="color:blue ;text-align:right;"> <a href="termsAndConditions.html">Terms and Conditions</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="privacy.html">Privacy Policy</a></h5>
                  </div>
                 
  

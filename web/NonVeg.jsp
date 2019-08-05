@@ -77,7 +77,7 @@
     </div>
   </div>
 </nav>
-    <form method="post">
+    <form method="post" action="NonVeg">
         <div style="background-image:url(pizza.jpg)">
         <div class="form-area">
             <h1 STYLE="COLOR:RED">PLACE ORDER</h1>
@@ -99,11 +99,11 @@
 <option value="Multi">MultiGrain MultiGrain Rs.615</option>
             </select>
      <h3 style="color:WHITE;">ADD QUANTITY :</h3>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-      <input type="checkbox" style="margin-top: 5%">  
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity"> <br>
+      <input type="checkbox" style="margin-top: 5%" name="add">  
            <h4 style="color: white;">  Add Extra Cheese @Rs.65</h4>
            </br> 
-             <h3> ADD VEG TOPPINGS @ 50 EACH :</h3> 
+             <h3 name="topveg"> ADD VEG TOPPINGS @ 50 EACH :</h3> 
                <b style="color: blue;">  Onion : </b><input type="checkbox"><br>
                <B style="color: blue;">Crisp Capisum : </b><input type="checkbox"><br>
                <b style="color: blue;">Fresh Tomato : </b><input type="checkbox"><br>
@@ -115,17 +115,13 @@
                <B style="color: blue;">Paneer : </b><input type="checkbox"><br>
                              
                                     
-               <h3> ADD NON-VEG TOPPINGS @ 65 EACH :</h3> 
+               <h3 name="topnov"> ADD NON-VEG TOPPINGS @ 65 EACH :</h3> 
                <b style="color: blue;">Pepper barbecue: </b><input type="checkbox"><br>
                <B style="color: blue;">Peri-Peri : </b><input type="checkbox"><br>
                <b style="color: blue;">Rasher: </b><input type="checkbox"><br>
                <b style="color: blue;">Sausage : </b><input type="checkbox"><br>
                <B style="color: blue;">Tikka : </b><input type="checkbox"><br>
-  
-          <a href="#" class="btn btn-primary custom-btn" style="margin-top: 5%; margin-bottom: 5%">ADD TO CART</a></br>
-      
-         
-        </div>
+           <input type="submit" value="Order now" class="btn btn-primary custom-btn" style="margin-top: 5%; margin-bottom: 5%">        </div>
         </div>
         </form>
               <br><br>
@@ -152,13 +148,13 @@
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
          <footer style="background-color: black;">
  <div class="row">
-     <div class="col-sm-5">
+      <div class="col-sm-5">
         
                      
                         
                          <h2 style="color:red ;text-align:left;">ORDER ONLINE</h2>
                               
-                         <h5 style="color:blue;text-align:left"> <a href="#menu">PIZZA MENU</a></h5>
+                         <h5 style="color:blue;text-align:left"> <a href="index.html">PIZZA MENU</a></h5>
                          <h5 style="color:blue;text-align:left"> <a href="#">NUTRITIONAL INFORMATION</a></h5>
                          
                          
@@ -173,16 +169,12 @@
                      
                  </div>
                    <div class="col-sm-4">
-                        <H2 style="color:red ;text-align:right;">HELP</H2>
+                     <H2 style="color:red ;text-align:right;">HELP</H2>
                
                      <h5 style="color:blue ;text-align:right;"> <a href="#map">STORE FINDER</a></h5>
-                    
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Terms and Conditions</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Privacy Policy</a></h5>
-                     
+                  <h5 style="color:blue ;text-align:right;"> <a href="termsAndConditions.html">Terms and Conditions</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="privacy.html">Privacy Policy</a></h5>
                  </div>
-                
- 
              <br>
              
 <p style="text-align:center">
