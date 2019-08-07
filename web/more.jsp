@@ -45,49 +45,6 @@
     </div>
   </div>
 </nav>
-             
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
-      <div class="item active">
-        <img src="pi.jpg" alt="Images" style="width:100%;">
-       
-      </div>
-
-      <div class="item">
-        <img src="pi2.jpg" alt="image" style="width:100%;">
-        
-       
-      </div>
-              <div class="item">
-        <img src="pi3.jpg" alt="image" style="width:100%;">
-        
-       
-      </div>
-    
-      <div class="item">
-        <img src="pi4.jpg" alt="image" style="width:100%;">
-       
-      </div>
-  
-    </div> <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
         <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica"><b>MORE</b></h1><br>
         <div class="container">
        <div class="col-sm-1">
@@ -244,13 +201,13 @@ Sweet Temptation! Hot Chocolate Brownie drizzled with chocolate fudge sauce
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
          <footer style="background-color: black;">
  <div class="row">
-     <div class="col-sm-5">
+    <div class="col-sm-5">
         
                      
                         
                          <h2 style="color:red ;text-align:left;">ORDER ONLINE</h2>
                               
-                         <h5 style="color:blue;text-align:left"> <a href="#menu">PIZZA MENU</a></h5>
+                         <h5 style="color:blue;text-align:left"> <a href="index.html">PIZZA MENU</a></h5>
                          <h5 style="color:blue;text-align:left"> <a href="#">NUTRITIONAL INFORMATION</a></h5>
                          
                          
@@ -265,13 +222,11 @@ Sweet Temptation! Hot Chocolate Brownie drizzled with chocolate fudge sauce
                      
                  </div>
                    <div class="col-sm-4">
-                             <H2 style="color:red ;text-align:right;">HELP</H2>
+                     <H2 style="color:red ;text-align:right;">HELP</H2>
                
                      <h5 style="color:blue ;text-align:right;"> <a href="#map">STORE FINDER</a></h5>
-                    
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Terms and Conditions</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Privacy Policy</a></h5>
-                     
+                  <h5 style="color:blue ;text-align:right;"> <a href="termsAndConditions.html">Terms and Conditions</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="privacy.html">Privacy Policy</a></h5>
                  </div>
                 
  

@@ -55,7 +55,7 @@
     </div>
   </div>
 </nav>
-    <form method="post">
+    <form method="post" action="SideOrders">
        
             <h1 STYLE="COLOR:RED;text-align: CENTER">PLACE ORDER</h1>
            
@@ -66,9 +66,8 @@
         <h1 style="color:green;">GARLIC BREAD @99</H1>
       <img src="GARLIC.jpg" class="img-circle"  style="width:100%" alt="Image">
       <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity1"> <br>
+ 
       </div>
        
     <div class="col-sm-5"> 
@@ -76,9 +75,9 @@
             ;">WHITE PASTA ITALIANO NON-VEG @145</H1>
       <img src="non.jpg" class="img-circle"  style="width:100%" alt="Image">
       <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity2"> <br>
         
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+ 
     </div>
   </div>
                  </div>
@@ -89,18 +88,17 @@
         <h1 style="color:white;">BURGER PIZZA-CLASSIC NON VEG @139</H1>
       <img src="burgerNon.jpg" class="img-circle"  style="width:100%" alt="Image">
       <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-        
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity3"> <br>
+    
     </div>
   
          
       <div class="col-sm-5" >
-        <h1 style="color:green;">STUFFED AGRLIC BREADSTICKS @139</H1>
+        <h1 style="color:green;">STUFFED GARLIC BREADSTICKS @139</H1>
       <img src="stuffed.jpg" class="img-circle"  style="width:100%" alt="Image">
    <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%" >ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity4"> <br>
+  
       </div>
        
  </div>
@@ -112,16 +110,16 @@
         <h1 style="color:red;">TACO MEXICANA NON VEG @135</H1>
       <img src="taco.jpg" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity5"> <br>
+ 
     </div>
 
           <div class="col-sm-5"> 
         <h1 style="color:pink;">WHITE PASTA ITALIANO VEG @135</H1>
       <img src="veg1.jpg" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity6"> <br>
+  
     </div>
   </div>
         </div>
@@ -132,16 +130,16 @@
         <h1 style="color:orange;">BURGER PIZZA-PREMIUM VEG @129</H1>
       <img src="burgerVeg.jpg" class="img-circle"  style="width:100%" alt="Image">
    <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity7"> <br>
+ 
       </div>
        
     <div class="col-sm-5"> 
         <h1 style="color:red;">TACO MEXICANA VEG @125</H1>
       <img src="taco_veg.jpg" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity8"> <br>
+  
     </div>
 
         </div>
@@ -153,8 +151,8 @@
         <h1 style="color:purple;">BURGER PIZZA-CLASSIC VEG @99</H1>
       <img src="burgerClassic.jpg" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity9"> <br>
+
     </div>
  
   <div class="row">
@@ -162,8 +160,8 @@
         <h1 style="color:green;">CHOCO LAVA CAKE @99</H1>
       <img src="LAVA.jpg" class="img-circle"  style="width:100%" alt="Image">
    <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity0"> <br>
+ 
       </div>
         </div>
                  </div>
@@ -175,8 +173,8 @@
         <h1 style="color:red;">PEPSI @ 60</H1>
       <img src="pepsi.jpg" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity10"> <br>
+  
     </div>
 
      
@@ -185,8 +183,8 @@
         <h1 style="color:green;">BROWNIE FANTASY @59</H1>
       <img src="browniw.png" class="img-circle"  style="width:100%" alt="Image">
    <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity11"> <br>
+   
       </div>
        
      </div>
@@ -198,16 +196,16 @@
         <h1 style="color:yellow;">CRINKLE FRIES @59</H1>
       <img src="crinkle.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity12"> <br>
+   
     </div>
 
           <div class="col-sm-5"> 
               <h1 style="color:white;">CRUNCHY STRIPS @59</H1>
       <img src="Crunchy.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity13"> <br>
+   
     </div>
   </div>
         </div>
@@ -218,16 +216,16 @@
         <h1 style="color:green;">TACO MEXICANA-VEG(SINGLE)@59</H1>
       <img src="tacoVegSingle.png" class="img-circle"  style="width:100%" alt="Image">
    <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity14"> <br>
+  
       </div>
        
     <div class="col-sm-5"> 
         <h1 style="color:red;">POTATO CHEESE SHOTS @59</H1>
       <img src="potato.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity15"> <br>
+  
     </div>
  </div>
                  </div>
@@ -239,16 +237,16 @@
         <h1 style="color:maroon;">CHICKEN PARCEL @39</H1>
       <img src="chickenn.jpg" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity16"> <br>
+ 
     </div>
   
       <div class="col-sm-5" >
         <h1 style="color:olive;">VEG PARCEL @35</H1>
       <img src="veg_parcel.jpg" class="img-circle"  style="width:100%" alt="Image">
    <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity17"> <br>
+   
       </div>
         </div>
                  </div>
@@ -260,16 +258,16 @@
         <h1 style="color:violet;">CHEESY DIP @25</H1>
       <img src="ch.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity18"> <br>
+ 
     </div>
 
           <div class="col-sm-5"> 
         <h1 style="color:red;">CHEESY JALAPENO DIP @25</H1>
       <img src="chj.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity19"> <br>
+  
     </div>
   </div> 
         </div>
@@ -281,15 +279,15 @@
         <h1 style="color:olive;">CHICKEN MEATBALLS PERI-PERI @99</H1>
       <img src="ken.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity20"> <br>
+  
     </div>
          <div class="col-sm-5"> 
         <h1 style="color:yellow;">ROASTED CHICKEN WINGS PERI-PERI @109</H1>
       <img src="roasted1.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity21"> <br>
+  
     </div>
     
         </div>
@@ -304,16 +302,16 @@
         <h1 style="color:blue;">BONELESS CHICKEN WINGS PERI-PERI @ 139</H1>
       <img src="boneless1.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity22"> <br>
+  
     </div>
   
          <div class="col-sm-5"> 
       <h1 style="color:orange;"> BONELESS CHICKEN WINGS-LEMON PEPPER @139 </h1>
       <img src="boneless.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-        <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP:5%">ADD TO CART</a>
+        <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity23"> <br>
+  
     </div>
         </div>
                  </div>
@@ -325,15 +323,15 @@
         <h1 style="color:red;">ROASTED CHICKEN WINGS CLASSIC HOT SAUCE @109</H1>
       <img src="ROASTED.png" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity24"> <br>
+
     </div>
            <div class="col-sm-5"> 
         <h1 style="color:white;">BUTTERSCOTCH MOUSSE CAKE @90</H1>
       <img src="butter.jpg" class="img-circle"  style="width:100%" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity25"> <br>
+   
     </div>
   </div>
         </div>
@@ -344,8 +342,7 @@
         <h1 style="color:maroon;">CHICKEN MEATBALLS-SRIACHA @99 </H1>
       <img src="chi.png" class="img-circle" alt="Image">
         <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+  <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity26"> <br>
     </div>
        
        
@@ -353,13 +350,14 @@
         <h1 style="color:green;">TOMATO KETCHUP @1</H1>
       <img src="ketchup.jpg" class="img-circle"   alt="Image">
    <h3 style="color:green;">ADD QUANTITY :</h3> <br>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-   <a href="#" class="btn btn-primary custom-btn" STYLE="margin-TOP: 5%">ADD TO CART</a>
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity27"> <br>
+  
       </div>
 
         
   </div>
         </div>
+       <input type="submit" value="Order Now" class="btn btn-primary custom-btn" style="margin-top: 5%; margin-bottom: 5%">
       </div>
 
         </form>
@@ -387,13 +385,13 @@
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
          <footer style="background-color: black;">
  <div class="row">
-     <div class="col-sm-5">
+       <div class="col-sm-5">
         
                      
                         
                          <h2 style="color:red ;text-align:left;">ORDER ONLINE</h2>
                               
-                         <h5 style="color:blue;text-align:left"> <a href="#menu">PIZZA MENU</a></h5>
+                         <h5 style="color:blue;text-align:left"> <a href="index.html">PIZZA MENU</a></h5>
                          <h5 style="color:blue;text-align:left"> <a href="#">NUTRITIONAL INFORMATION</a></h5>
                          
                          
@@ -408,15 +406,12 @@
                      
                  </div>
                    <div class="col-sm-4">
-                   <H2 style="color:red ;text-align:right;">HELP</H2>
+                     <H2 style="color:red ;text-align:right;">HELP</H2>
                
                      <h5 style="color:blue ;text-align:right;"> <a href="#map">STORE FINDER</a></h5>
-                    
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Terms and Conditions</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Privacy Policy</a></h5>
-                     
+                  <h5 style="color:blue ;text-align:right;"> <a href="termsAndConditions.html">Terms and Conditions</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="privacy.html">Privacy Policy</a></h5>
                  </div>
-                
  
              <br>
              

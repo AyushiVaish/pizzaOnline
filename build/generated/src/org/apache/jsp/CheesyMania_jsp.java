@@ -64,7 +64,7 @@ public final class CheesyMania_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            }\n");
       out.write("            .form-area {\n");
       out.write("                width:500px;\n");
-      out.write("                height: 680px;\n");
+      out.write("                height: 620px;\n");
       out.write("                margin : 60px auto 0;\n");
       out.write("                position: relative;\n");
       out.write("                background: rgba(0,0,0,0.4);\n");
@@ -120,7 +120,7 @@ public final class CheesyMania_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    </div>\n");
       out.write("  </div>\n");
       out.write("</nav>\n");
-      out.write("    <form method=\"post\">\n");
+      out.write("    <form method=\"post\" action=\"CheesyMania\">\n");
       out.write("        <div style=\"background-image:url(pizza.jpg)\">\n");
       out.write("        <div class=\"form-area\">\n");
       out.write("            <h1 STYLE=\"COLOR:RED\">PLACE ORDER</h1>\n");
@@ -139,12 +139,8 @@ public final class CheesyMania_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            </select>\n");
       out.write("           \n");
       out.write("       <h3 style=\"color:WHITE;\">ADD QUANTITY :</h3>\n");
-      out.write("      <INPUT TYPE=\"NUMBER\" placeholder=\"Enter the quantity\"> <br>\n");
-      out.write("      \n");
-      out.write("              \n");
-      out.write("          <a href=\"#\" class=\"btn btn-primary custom-btn\" style=\"margin-top: 5%; margin-bottom: 5%\">ADD TO CART</a></br>\n");
-      out.write("      \n");
-      out.write("         \n");
+      out.write("      <INPUT TYPE=\"NUMBER\" placeholder=\"Enter the quantity\" name=\"quantity\"> <br>\n");
+      out.write("     <input type=\"submit\" value=\"Order now\" class=\"btn btn-primary custom-btn\" style=\"margin-top: 5%; margin-bottom: 5%\">\n");
       out.write("        </div>\n");
       out.write("        </div>\n");
       out.write("        </form>\n");

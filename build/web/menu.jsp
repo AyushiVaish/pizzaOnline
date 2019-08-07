@@ -49,55 +49,13 @@
     </div>
   </div>
 </nav>
-         
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
-      <div class="item active">
-        <img src="pi.jpg" alt="Images" style="width:100%;">
-       
-      </div>
-
-      <div class="item">
-        <img src="pi2.jpg" alt="image" style="width:100%;">
-        
-       
-      </div>
-              <div class="item">
-        <img src="pi3.jpg" alt="image" style="width:100%;">
-        
-       
-      </div>
-    
-      <div class="item">
-        <img src="pi4.jpg" alt="image" style="width:100%;">
-       
-      </div>
-  
-    </div>
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+   
+ 
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica"><b>VEG PIZZAS</b></h1><br>
          <div class="container text-center" style="background-color:black ;" >  
-           
+        
   <div class="row">
-      <div class="col-sm-4" >
+      <div class="col-sm-5" >
         <h1 style="color:green;">Margherita</H1>
       <img src="Margherit.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:darkgreen">
@@ -107,15 +65,18 @@ A hugely popular margherita, with a deliciously tangy single cheese topping
    <a href="home.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
       </div>
        
-    <div class="col-sm-3"> 
+    <div class="col-sm-5"> 
         <h1 style="color:red;">Double Cheese Margherita</H1>
       <img src="Double_Cheese_Margherita.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:maroon;">
 The ever-popular Margherita - loaded with extra cheese... oodies of it!</p>    
    <a href="douleCheese.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
-
-        <div class="col-sm-4"> 
+  </div></div>
+         
+             <div class="container text-center" style="background-color:black">
+      <div class="row">
+      <div class="col-sm-5" >
                    <H1 style="color:goldenrod;">Farm House</H1>
       <img src="Farmhouse.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:lightcoral">
@@ -124,20 +85,20 @@ A pizza that goes ballistic on veggies! Check out this mouth watering overload o
  </p>    
     <a href="FarmHouse.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
         </div>
-  </div>
-        </div>
-        
-    <div class="container text-center" style="background-color:black">
-        <div class="row">
+  
  
-    <div class="col-sm-4"> 
+    <div class="col-sm-5"> 
         <H1 style="color:blue;">Peppy Paneer
 </H1>
       <img src="Peppy_Paneer.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:midnightblue;">Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>    
     <a href="peppyPaneer.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
-             <div class="col-sm-3">
+      </div></div>
+             
+          <div class="container text-center" style="background-color:black">
+      <div class="row">
+      <div class="col-sm-5" >
                  <h1 style="color:olive"> </br>
          Mexican Green Wave</H1>
       <img src="Mexican_Green_Wave.jpg" class="img-circle"  style="width:100%" alt="Image">
@@ -145,7 +106,7 @@ A pizza that goes ballistic on veggies! Check out this mouth watering overload o
 A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.</p>
 <a href="Mexican.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
              </div>
-        <div class="col-sm-4"> 
+        <div class="col-sm-5"> 
             <H1 style="color:darkred;">Deluxe Veggie</H1>
       <img src="Deluxe_Veggie.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:crimson;">
@@ -156,48 +117,52 @@ For a vegetarian looking for a BIG treat that goes easy on the spices, this one'
         </div>
   </div>
     </div>
+         
          <div class="container text-center" style="background-color:black">
         <div class="row">
-         <div class="col-sm-4"> 
+         <div class="col-sm-5"> 
         <h1 style="color:darkslategrey;">5 Pepper</H1>
       <img src="5_Pepper.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:darkmagenta;">
 Dominos introduces "5 Peppers" an exotic new Pizza. Topped with red bell pepper, yellow bell pepper, capsicum, red paprika, jalapeno & sprinkled with exotic herb</p>    
-   <a href="5Pepper.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
+   <a href="5pepper.html" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
-         <div class="col-sm-3"> 
+         <div class="col-sm-5"> 
         <h1 style="color:darkgoldenrod;">Veg Extravaganza</H1>
       <img src="Veg_Extravaganz.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:darkcyan;">
 A pizza that decidedly staggers under an overload of golden corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around.></p>    
    <a href="vegExtra.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
-         <div class="col-sm-4"> 
+        </div></div>
+                    <div class="container text-center" style="background-color:black">
+      <div class="row">
+      <div class="col-sm-5" >
         <h1 style="color:darkslateblue;">CHEESE N CORN</H1>
       <img src="Corn_&_Cheese.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:pink;">
 Cheese I Golden Corn</p>    
    <a href="cheeseNCorn.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
-              </div>
-    </div>
-          <div class="container text-center" style="background-color:black">
-        <div class="row">
-         <div class="col-sm-4"> 
+       
+         <div class="col-sm-5"> 
         <h1 style="color:red;">PANEER MAKHANI</H1>
       <img src="Paneer_Makhni.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:green;">
 Paneer and Capsicum on Makhani Sauce</p>    
    <a href="PaneerMakhani.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
-         <div class="col-sm-3"> 
+      </div></div>
+                      <div class="container text-center" style="background-color:black">
+      <div class="row">
+      <div class="col-sm-5" >
         <h1 style="color:blue;">VEGGIE PARADISE</H1>
       <img src="veggie.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:olive;">
 Goldern Corn, Black Olives, Capsicum & Red Paprika</p>    
    <a href="VeggiePara.jsp" class="btn btn-primary custom-btn">ORDER NOW</a>
     </div>
-         <div class="col-sm-4"> 
+         <div class="col-sm-5"> 
         <h1 style="color:yellow;">FRESH VEGGIE</H1>
       <img src="Fresh_Veggie.jpg" class="img-circle"  style="width:100%" alt="Image">
       <p style="color:maroon;">
@@ -229,13 +194,13 @@ Onion I Capsicum</p>
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
          <footer style="background-color: black;">
  <div class="row">
-     <div class="col-sm-5">
+       <div class="col-sm-5">
         
                      
                         
                          <h2 style="color:red ;text-align:left;">ORDER ONLINE</h2>
                               
-                         <h5 style="color:blue;text-align:left"> <a href="#menu">PIZZA MENU</a></h5>
+                         <h5 style="color:blue;text-align:left"> <a href="index.html">PIZZA MENU</a></h5>
                          <h5 style="color:blue;text-align:left"> <a href="#">NUTRITIONAL INFORMATION</a></h5>
                          
                          
@@ -250,16 +215,12 @@ Onion I Capsicum</p>
                      
                  </div>
                    <div class="col-sm-4">
-                               <H2 style="color:red ;text-align:right;">HELP</H2>
+                     <H2 style="color:red ;text-align:right;">HELP</H2>
                
                      <h5 style="color:blue ;text-align:right;"> <a href="#map">STORE FINDER</a></h5>
-                    
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Terms and Conditions</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">Privacy Policy</a></h5>
-                     
+                  <h5 style="color:blue ;text-align:right;"> <a href="termsAndConditions.html">Terms and Conditions</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="privacy.html">Privacy Policy</a></h5>
                  </div>
-                
- 
              <br>
              
 <p style="text-align:center">

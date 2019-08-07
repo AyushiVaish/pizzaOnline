@@ -90,13 +90,11 @@ public class ControllerServlet extends HttpServlet {
         int checkFlag = ServiceLogic.save(pObject);
         if(checkFlag !=0)
         {
-            out.print("<h2 align = 'center'> Succsessfully Registered </h2>");
-            
-            
-        }
+            out.print(" Succsessfully Registered ");
+            }
         else {
             out.print("<p align='center'><font color='red'><b>Invalid User Details/Userame </b><font></p>");
-            request.getRequestDispatcher("register.jsp").include(request,response);
+            request.getRequestDispatcher("reister.jsp").include(request,response);
         }
     }
         catch (Exception e)
@@ -104,7 +102,7 @@ public class ControllerServlet extends HttpServlet {
                 {
                    e.printStackTrace();
                 out.print("<p align='center'><font color='red'><b>Invalid User Details/Userame </b><font></p>");
-                 request.getRequestDispatcher("register.jsp").include(request,response);
+                 request.getRequestDispatcher("reister.jsp").include(request,response);
         }
                 
     }

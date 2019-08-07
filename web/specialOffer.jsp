@@ -9,16 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Special Offer </title>
-              <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <title>5 pepper order</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <link rel="stylesheet" href="style.css">
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-        
     </head>
     <body>
         <nav class="navbar navbar-inverse">
@@ -30,117 +27,73 @@
             <span class="icon-bar"></span>
                    
       </button>
-        <div>
+          <div>
       <img src="pizzaIcon1.jpg" class="img-circle"  width="184" height="136">
         </div> 
     </div>
-      <a href="#myPage" style="color:red;font-size:70px;font-family:Georgia;text-align: center"><b>FooDuDE</b></a>
+      <a href="index.html" style="color:red;font-size:70px;font-family:Georgia;text-align: center"><b>FooDuDE</b></a>
     <div class="collapse navbar-collapse" id="myNavbar" style="font-size:20px;color:green;">
       <ul class="nav navbar-nav navbar-right">
-           <li><a href="#menu">Menu</a></li>
-            <li><a href="#about">Inside FooDuDe</a></li>
-          <li><a href="#section1">SPECIAL OFFERS</a></li>
-          
+           <li><a href="index.html">MENU</a></li>
+           <li><a href="whishList.html"><i class="fa fa-shopping-cart" ></i> WHISH LIST</a></li>
+           <li><a href="addRecipe.html"><span class="glyphicon glyphicon-log-in"></span> ADD YOUR RECIPES</a></li>
+             <li><a href="admin.html"><span class="glyphicon glyphicon-user"></span> ADMIN PAGE</a></li>
+        
            <li> <a href="tel:714653">
                    <span class="glyphicon glyphicon-earphone"></span> 714653</a></li>
-        <li><a href="register.jsp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-   
+      
+    
       </ul>
     </div>
   </div>
 </nav>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-
-      <div class="item active">
-        <img src="pi.jpg" alt="Images" style="width:100%;">
        
-      </div>
-
-      <div class="item">
-        <img src="pi2.jpg" alt="image" style="width:100%;">
-        
-       
-      </div>
-              <div class="item">
-        <img src="pi3.jpg" alt="image" style="width:100%;">
-        
-       
-      </div>
-    
-      <div class="item">
-        <img src="pi4.jpg" alt="image" style="width:100%;">
-       
-      </div>
-  
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
         
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica" id="menu"><b>Today's Everday Value Offers</b></h1><br>
   <div class="container">
-       <div class="col-sm-9">
-           <h4 class="active">  <a href="specialOffer.jsp"><b>Regular Pizzas Starting @99 Each</b></a></h4>
+       <div class="col-sm-6" >
+           <h4 class="active">  <a href="specialOffer.jsp"><b style="color:blue">Regular Pizzas Starting @99 Each</b></a></h4>
        </div>
-            <div class="col-sm-3">
-                <h4><a href="mediumEverday.jsp"><b>Medium Pizzas Starting @199 Each</b></a></h4>
+            <div class="col-sm-4">
+                <h4><a href="mediumEverday.jsp"><b style="color:red">Medium Pizzas Starting @199 Each</b></a></h4>
             </div>
         
         </div>
          <div class="container text-center" style="background-color:black ;" >  
            
   <div class="row">
-      <div class="col-sm-6" >
+      <div class="col-sm-5" >
         <h1 style="color:green;">2 Pizzas at ₹99 each</H1>
       <img src="at99.jpg" class="img-circle" alt="Image">
       <p style="color:blue">Select any 2 Regular Pizzas Worth <strike>₹165</strike> @ <span style="color:red">₹99</span> each
 </p>
-   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+   <a href="order.jsp" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
-        <div class="col-sm-6" >
+        <div class="col-sm-5" >
         <h1 style="color:violet;">2 Pizzas at ₹139 each</H1>
       <img src="at139.jpg" class="img-circle"  alt="Image">
       <p style="color:orange">
           Select any 2 Regular Pizzas Worth <strike>₹205</strike> @ <span style="color:red;">₹139</span> each</p>
-   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+   <a href="order.jsp" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
   </div>
          </div>
           <div class="container text-center" style="background-color:black ;" >  
            
   <div class="row">
-      <div class="col-sm-6" >
+      <div class="col-sm-5" >
         <h1 style="color:olive;">2 Pizzas at ₹179 each</H1>
       <img src="at179.jpg" class="img-circle" alt="Image">
       <p style="color:maroon">
           Select any 2 Regular Pizzas Worth <strike>₹235</strike> @ <span style="color:red">₹179</span> each</p>
-   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+   <a href="order.jsp" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
-        <div class="col-sm-6" >
+        <div class="col-sm-5" >
         <h1 style="color:red;">2 Pizzas at ₹219 each</H1>
       <img src="at319.jpg" class="img-circle"   alt="Image">
       <p style="color:blue">
           Select any 2 Regular Pizzas Worth <strike>₹295</strike> @ <span style="color:red">₹219</span> each</p>
-   <a href="#" class="btn btn-primary custom-btn">Avail Now</a>
+   <a href="order.jsp" class="btn btn-primary custom-btn">Avail Now</a>
       </div>
   </div>
          </div>
@@ -150,7 +103,7 @@
           
          <div class="container" style="background-color:gray">
              <h1>Everyday Value Offer</h1>
-             <p>Avail Domino's Everyday Value Offers and get 2 Regular Pizzas starting at Rs.99 each or get 2 Medium Pizzas starting at Rs.199 each. View all the Everyday Value Offers & Pizza Deals below. T & C apply.</p>
+             <p>Avail FooDuDe's Everyday Value Offers and get 2 Regular Pizzas starting at Rs.99 each or get 2 Medium Pizzas starting at Rs.199 each. View all the Everyday Value Offers & Pizza Deals below. T & C apply.</p>
              <br>
              <h3>Terms & Conditions:</h3>
              <p style="background-color:skyblue;">No Coupon codes are required for this offer.</p>
@@ -160,7 +113,7 @@
              <p style="background-color:skyblue;">Everyday Value Offer is only applicable when 2 Pizzas are selected from the options provided.</p>
              
              <br><br>
-             <h1>Domino's Coupons & Offers</h1>
+             <h1>FooDuDe's Coupons & Offers</h1>
              <br>
              <h3>Terms & Conditions:</h3>
              <p style="background-color:skyblue;">Discount applicable on selected items.</p>
@@ -188,6 +141,9 @@
         <p>Sunday Closed</p>
       </div>
     </div>
+    
+  </div>
+
   
 <!-- Image of location/map -->
 <img src="map1.jpg" class="w3-image w3-greyscale" style="width:100%;" id="map">
@@ -217,23 +173,23 @@
   </div>
 </div>
 </div>
-    <div class="container-fluid">
+       <div class="container-fluid">
          <h1 style="color:red; font-size: 50px;text-align:center; font-family: helvetica">MORE INFORMATION</h1>
-         <footer class="w3-container-fluid  w3-padding-64 w3-black">
-  <div class="w3-row-padding">
-    <div class="w3-third w3-center">
+         <footer style="background-color: black;">
+ <div class="row">
+      <div class="col-sm-5">
         
                      
                         
                          <h2 style="color:red ;text-align:left;">ORDER ONLINE</h2>
                               
-                         <h5 style="color:blue;text-align:left"> <a href="#menu">PIZZA MENU</a></h5>
+                         <h5 style="color:blue;text-align:left"> <a href="index.html">PIZZA MENU</a></h5>
                          <h5 style="color:blue;text-align:left"> <a href="#">NUTRITIONAL INFORMATION</a></h5>
                          
                          
                      
                  </div>
-                 <div class="w3-third  w3-center">
+                 <div class="col-sm-2">
                      <h2 style="color:red;text-align: center;">CONTACT US </H2>
                     
                      
@@ -241,16 +197,14 @@
                      <h5 style="color:blue;text-align: center;"> <a href="feedback.jsp">FEEDBACK</a></h5>
                      
                  </div>
-                  <div class="w3-third  w3-center">
+                   <div class="col-sm-4">
                      <H2 style="color:red ;text-align:right;">HELP</H2>
                
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">STORE FINDER</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#map">SITE MAP</a></h5>
-                     <h5 style="color:blue ;text-align:right;"> <a href="#">OTHERS</a></h5>
-                     
-                 </div>
-                
-
+                     <h5 style="color:blue ;text-align:right;"> <a href="#map">STORE FINDER</a></h5>
+                  <h5 style="color:blue ;text-align:right;"> <a href="termsAndConditions.html">Terms and Conditions</a></h5>
+                     <h5 style="color:blue ;text-align:right;"> <a href="privacy.html">Privacy Policy</a></h5>
+                 </div>   <br>
+             
 <p style="text-align:center">
 <!--Facebook icon-->
 <a href="http://facebook.com/flashissue" target="_blank"><img alt="" src="https://s3.amazonaws.com/flashissue/YdvNzBsfTrqg9Cx9Tozh_Facebook-e1386022800280.png" style="height:50px; width:50px" /> </a>&nbsp; &nbsp; &nbsp;
@@ -262,9 +216,11 @@
 <a href="http://linkedin.com" target="_blank"><img alt="" src="https://s3.amazonaws.com/flashissue/dJtLdIsbRAix3zQhvygP_linkedin_icon_dark_hover-5be7d72ca83a10c0c76c32d141b0b828.png" style="height:50px; width:50px" /> </a>
 </p>
   </div>
-         </footer>
+        </footer>
      
     </div>
-
-    </body>
+<br>
+ <p style="text-align: right"><b>All rights reserved. Copyright © FooDuDE Disclaimer | T&C | Privacy Policy </b></p>
+ 
+         </body>
 </html>

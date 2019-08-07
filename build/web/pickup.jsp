@@ -16,7 +16,7 @@ ResultSet rs=null;
 <html>
    <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>FEEDBACK FORM</title>
+        <title>Pick Up</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -48,7 +48,7 @@ ResultSet rs=null;
           
            <li> <a href="tel:714653">
                    <span class="glyphicon glyphicon-earphone"></span> 714653</a></li>
-        <li><a href="register.jsp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="reister.jsp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
    
       </ul>
@@ -60,7 +60,6 @@ ResultSet rs=null;
          try {
              Class.forName("org.apache.derby.jdbc.ClientDriver").newInstance();
               String value1=request.getParameter("name");
-            
               Integer value2=Integer.parseInt(request.getParameter("number"));
               String sql = "insert into pickup values(?,?)" ;
                 connection = DriverManager.getConnection(connectionURL,"pizza","pizza");

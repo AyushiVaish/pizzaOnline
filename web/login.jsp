@@ -50,7 +50,7 @@
                 
             }
             .img-area img{
-                width:60%;
+                width:90%;
                 padding:10px;
             }
             input{

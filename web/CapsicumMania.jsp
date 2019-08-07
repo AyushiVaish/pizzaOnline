@@ -25,7 +25,7 @@
             }
             .form-area {
                 width:500px;
-                height: 680px;
+                height: 580px;
                 margin : 60px auto 0;
                 position: relative;
                 background: rgba(0,0,0,0.4);
@@ -81,7 +81,7 @@
     </div>
   </div>
 </nav>
-    <form method="post">
+    <form method="post" action="CapsicumManiaVeg">
         <div style="background-image:url(pizza.jpg)">
         <div class="form-area">
             <h1 STYLE="COLOR:RED">PLACE ORDER</h1>
@@ -89,22 +89,19 @@
                 <img src="CapsicumVeg.jpg" class="img-circle">
             </div>
             <br>
-            <h3>SIZE: <b>REGULAR</b></H3>
+            <h3>SIZE: <b>REGULAR </b></H3>
        
           <h3>CRUST</h3>
           <select name="crust">  
-              <option value="new">Classic Hand Tossed Rs.69</option>
+              <option value="new">Classic Hand Tossed @69</option>
      
-<option value="fresh">Fresh Pan Pizza Rs.94</option>
+<option value="fresh">Fresh Pan Pizza @94</option>
 
             </select>
            
        <h3 style="color:WHITE;">ADD QUANTITY :</h3>
-      <INPUT TYPE="NUMBER" placeholder="Enter the quantity"> <br>
-     
-              
-          <a href="#" class="btn btn-primary custom-btn" style="margin-top: 5%; margin-bottom: 5%">ADD TO CART</a></br>
-      
+      <INPUT TYPE="NUMBER" placeholder="Enter the quantity" name="quantity"> <br>
+       <input type="submit" value="Order now" class="btn btn-primary custom-btn" style="margin-top: 5%; margin-bottom: 5%">
          
         </div>
         </div>
